@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Summary for {{ call_sid }}</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #eef2f7;
+        margin: 2rem;
+        color: #222;
+      }
+      header {
+        margin-bottom: 2rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+        color: #0077ff;
+      }
+      pre {
+        background: white;
+        border-radius: 6px;
+        padding: 1rem 1.5rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        overflow-x: auto;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        line-height: 1.5;
+        font-size: 1rem;
+      }
+      a {
+        display: inline-block;
+        margin-top: 1rem;
+        color: #0077ff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Summary and Sentiment for CallSid: {{ call_sid }}</h1>
+      <a href="/summary_file">Check Another Summary</a>
+    </header>
+    <pre>{{ content|safe }}</pre>
+  </body>
+</html>

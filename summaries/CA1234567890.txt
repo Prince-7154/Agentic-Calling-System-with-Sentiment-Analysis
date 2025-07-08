@@ -1,0 +1,15 @@
+CallSid: CA1234567890
+
+Summary:
+Prince had a pleasant conversation with the AI assistant, expressing happiness and engaging actively.
+
+Sentiment:
+Positive: The tone of the conversation is cheerful and upbeat.
+
+Transcript:
+user: Hello, this is Prince.
+assistant: Hello Prince! How can I assist you today?
+user: I am feeling happy today.
+assistant: That’s great to hear! What made you happy?
+user: Talking with you.
+assistant: I’m glad! Anything else you want to talk about?

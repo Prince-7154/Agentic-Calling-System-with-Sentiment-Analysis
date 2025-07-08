@@ -1,0 +1,38 @@
+
+.env
+!.env.example
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VSCode and IDE configs
+.vscode/
+.idea/
+*.swp
+
+# macOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+
+# Cache
+*.cache
+*.egg-info/
+.cache/
+dist/
+build/

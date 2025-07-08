@@ -1,0 +1,17 @@
+[
+  { "role": "user", "content": "Hello, this is Prince." },
+  {
+    "role": "assistant",
+    "content": "Hello Prince! How can I assist you today?"
+  },
+  { "role": "user", "content": "I am feeling happy today." },
+  {
+    "role": "assistant",
+    "content": "That’s great to hear! What made you happy?"
+  },
+  { "role": "user", "content": "Talking with you." },
+  {
+    "role": "assistant",
+    "content": "I’m glad! Anything else you want to talk about?"
+  }
+]
