@@ -2,9 +2,9 @@
 
 This project implements an AI-powered voice calling agent that you can talk to by outbound call from twilio. It uses FastAPI as the backend server, integrates OpenAI GPT models to have a natural conversation, and generates conversation summaries and sentiment analysis reports.
 
-![Entry Point](assests\image1.png)
+![Entry Point](assests/image1.png)
 
-![Summary, Sentiment and Transcript](assests\image.png)
+![Summary, Sentiment and Transcript](assests/image.png)
 
 I have use **twilio** to make outbound call.
 
